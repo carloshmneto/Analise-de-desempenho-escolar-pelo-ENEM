@@ -1,2 +1,3 @@
 # Analise-de-desempenho-escolar-pelo-ENEM
-Projeto de regressão realizado para a disciplina de aprendizado de máquina.
+
+Esse projeto pretende analisar o desempenho escolar de diversos alunos ao redor do brasil, realizando uma comparação com diferentes variáveis socioeconômicas e observando correlações relevantes. Para isso, foi utilizada a base de dados de Microdados do ENEM 2022, com informações sobre todos os alunos inscritos no processo seletivo e suas respostas ao questionário socioeconômico obrigatório preenchido pelos mesmos. A partir desses dados, foram aplicadas diversas técnicas diferentes de modelos de dados para previsão da nota de cada estudante, utilizando modelos de tipo regressão, com métodos paramétricos (como Lasso, Ridge) e não paramétricos (como RandomForest, XGBoost).
