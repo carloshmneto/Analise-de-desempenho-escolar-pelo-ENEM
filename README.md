@@ -5,7 +5,7 @@ Esse projeto pretende analisar o desempenho escolar de diversos alunos ao redor 
 ## Estrutura do projeto
 
 - `codigo.ipynb`: notebook com análise e todas as etapas do projeto
-- dados: conta com o `.csv` com os microdados do ENEM 2022, além de um dicionário para descrição das variáveis contidas na base
+- dados: conta com dois arquivos; `MICRODADOS_ENEM_2022.csv.gz` se trata dos microdados do ENEM 2022 comprimidos em formado gzip; e `DICIONARIO_MICRODADOS_ENEM_2022.xlsx` é um dicionário para descrição das variáveis contidas na base
 
 ## Como executar o projeto
 Inicialmente, deve-se baixar os dados fornecidos, fazer upload dos mesmos em um Drive pessoal, e a partir desse momento rodar o arquivo `codigo.ipynb` em uma plataforma que suporte esse tipo de arquivo, a fim de se obter os resultados.
