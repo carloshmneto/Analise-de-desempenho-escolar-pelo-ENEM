@@ -2,8 +2,13 @@
 
 Esse projeto pretende analisar o desempenho escolar de diversos alunos ao redor do brasil, realizando uma comparação com diferentes variáveis socioeconômicas e observando correlações relevantes. Para isso, foi utilizada a base de dados de Microdados do ENEM 2022, com informações sobre todos os alunos inscritos no processo seletivo e suas respostas ao questionário socioeconômico obrigatório preenchido pelos mesmos. A partir desses dados, foram aplicadas diversas técnicas diferentes de modelos de dados para previsão da nota de cada estudante, utilizando modelos de tipo regressão, com métodos paramétricos (como Lasso, Ridge) e não paramétricos (como RandomForest, XGBoost).
 
+## Estrutura do projeto
+
+- `codigo.ipynb`: notebook com análise e todas as etapas do projeto
+- dados: conta com o `.csv` com os microdados do ENEM 2022, além de um dicionário para descrição das variáveis contidas na base
+
 ## Como executar o projeto
-Conta somente com os arquivos `codigo.ipynb`, junto com a base de dados. Para execução do projeto, deve-se baixar os dados fornecidos, fazer upload dos mesmos em um Drive pessoal, e a partir desse momento rodar o Notebook em uma plataforma que suporte esse tipo de arquivo, a fim de se obter os resultados.
+Inicialmente, deve-se baixar os dados fornecidos, fazer upload dos mesmos em um Drive pessoal, e a partir desse momento rodar o arquivo `codigo.ipynb` em uma plataforma que suporte esse tipo de arquivo, a fim de se obter os resultados.
 
 ## Resultados
 
